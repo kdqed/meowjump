@@ -28,7 +28,7 @@ function load(){
 
 function setup(){
   catTexture = g.frames(
-    "/assets/cat.png",
+    "https://meowjump.kdnanmaga.me/assets/cat.png",
     [[0,0],[80,0],[160,0]],
     80,64
   );
@@ -36,13 +36,13 @@ function setup(){
   g.backgroundColor = 0xff5020;
   g.scaleToWindow();
   cat = g.sprite(catTexture);
-  smallRoll = g.sprite("/assets/smallroll.png");
-  bigRoll = g.sprite("/assets/bigroll.png");
+  smallRoll = g.sprite("https://meowjump.kdnanmaga.me/assets/smallroll.png");
+  bigRoll = g.sprite("https://meowjump.kdnanmaga.me/assets/bigroll.png");
   cat.pivotY = 1;
   smallRoll.pivotY = 1;
   bigRoll.pivotY = 1;
   
-  catBearers = g.sprite("/assets/over.png");
+  catBearers = g.sprite("https://meowjump.kdnanmaga.me/assets/over.png");
   catBearers.pivotY = 0.5;
   catBearers.pivotX = 0.5;
   
