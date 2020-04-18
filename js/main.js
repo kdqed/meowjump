@@ -70,6 +70,7 @@ function setup(){
    
   upArrow = g.keyboard(38);
   upArrow.press = jump;
+  g.spaceBar.press = jump;
   g.pointer.tap = jump;
 }
 
